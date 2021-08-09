@@ -26,6 +26,27 @@ export default {
       },
     },
     {
+      name: 'avatar',
+      title: 'Avatar',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'shortBio',
+      title: 'Short Bio',
+      type: 'array',
+      of: [
+        {
+          title: 'Block',
+          type: 'block',
+          styles: [{ title: 'Normal', value: 'normal' }],
+          lists: [],
+        },
+      ],
+    },
+    {
       name: 'bio',
       title: 'Bio',
       type: 'array',
@@ -33,7 +54,7 @@ export default {
         {
           title: 'Block',
           type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
+          styles: [{ title: 'Normal', value: 'normal' }],
           lists: [],
         },
       ],
@@ -42,7 +63,7 @@ export default {
   preview: {
     select: {
       title: 'name',
-      media: 'image',
+      media: 'avatar',
     },
   },
-}
+};
