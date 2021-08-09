@@ -65,6 +65,24 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'liveSite',
+      title: 'Live Site',
+      type: 'string',
+      description: 'Paste live site url here'
+    },
+    {
+      name: 'codeRepo',
+      title: 'Github Repo',
+      type: 'string',
+      description: 'Paste the github repo here'
+    },
+    {
+      name: 'isFeatured',
+      title: 'Is Featured?',
+      type: 'boolean',
+      description: 'If is featured, show on homepage.'
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
