@@ -24,6 +24,16 @@ export default {
       options: {
         hotspot: true,
       },
+      fields: [
+        {
+          type: 'text',
+          name: 'alt',
+          title: 'Description',
+          options: {
+            isHighlighted: true,
+          },
+        },
+      ],
     },
     {
       name: 'avatar',
@@ -32,6 +42,16 @@ export default {
       options: {
         hotspot: true,
       },
+      fields: [
+        {
+          type: 'text',
+          name: 'alt',
+          title: 'Description',
+          options: {
+            isHighlighted: true,
+          },
+        },
+      ],
     },
     {
       name: 'shortBio',
