@@ -1043,7 +1043,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@popperjs/core@^2.5.4", "@popperjs/core@^2.9.2":
+"@popperjs/core@^2.5.4", "@popperjs/core@^2.9.2", "@popperjs/core@^2.9.3":
   version "2.9.3"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.9.3.tgz#8b68da1ebd7fc603999cf6ebee34a4899a14b88e"
   integrity sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==
@@ -1064,6 +1064,14 @@
     "@reach/utils" "0.15.3"
     tslib "^2.3.0"
 
+"@reach/auto-id@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.npmjs.org/@reach/auto-id/-/auto-id-0.16.0.tgz#dfabc3227844e8c04f8e6e45203a8e14a8edbaed"
+  integrity sha512-5ssbeP5bCkM39uVsfQCwBBL+KT8YColdnMN5/Eto6Rj7929ql95R3HZUOkKIvj7mgPtEb60BLQxd1P3o6cjbmg==
+  dependencies:
+    "@reach/utils" "0.16.0"
+    tslib "^2.3.0"
+
 "@reach/utils@0.13.2":
   version "0.13.2"
   resolved "https://registry.npmjs.org/@reach/utils/-/utils-0.13.2.tgz#87e8fef8ebfe583fa48250238a1a3ed03189fcc8"
@@ -1077,6 +1085,14 @@
   version "0.15.3"
   resolved "https://registry.npmjs.org/@reach/utils/-/utils-0.15.3.tgz#200f42adba9d1463b1c6a75ee2aaf9f0cba84f9d"
   integrity sha512-HFyjw8LZ4/RRk5bcMpDAeEc3aOeLR/vWRDsljlE3cHI5GfFlZcG3DDLSW8C2ba74RCFp/4X3Nz0nOrd4JdkZ1w==
+  dependencies:
+    tiny-warning "^1.0.3"
+    tslib "^2.3.0"
+
+"@reach/utils@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.npmjs.org/@reach/utils/-/utils-0.16.0.tgz#5b0777cf16a7cab1ddd4728d5d02762df0ba84ce"
+  integrity sha512-PCggBet3qaQmwFNcmQ/GqHSefadAFyNCUekq9RrWoaU9hh/S4iaFgf2MBMdM47eQj5i/Bk0Mm07cP/XPFlkN+Q==
   dependencies:
     tiny-warning "^1.0.3"
     tslib "^2.3.0"
@@ -1276,6 +1292,18 @@
     postcss-modules-values "^1.3.0"
     postcss-value-parser "^3.3.0"
     source-list-map "^2.0.0"
+
+"@sanity/dashboard@^2.14.0":
+  version "2.14.0"
+  resolved "https://registry.npmjs.org/@sanity/dashboard/-/dashboard-2.14.0.tgz#9da97672967e3079c0adf4d1f04b45518693a1f2"
+  integrity sha512-YWxf7fGWC2zHmkbAK1eoQUxD2/4RQgkz9RIPzitzZNxdXBjZ3fxbaPqbUa2leoCTnfDrcmpEVEIl+bWBsh5Rhw==
+  dependencies:
+    "@sanity/icons" "^1.1.4"
+    "@sanity/image-url" "^0.140.19"
+    "@sanity/ui" "^0.35.0"
+    lodash "^4.17.15"
+    rxjs "^6.5.3"
+    styled-components "^5.2.1"
 
 "@sanity/data-aspects@2.13.1":
   version "2.13.1"
@@ -1555,6 +1583,11 @@
     slate "^0.58.4"
     styled-components "^5.0.0"
 
+"@sanity/production-preview@^2.14.0":
+  version "2.14.0"
+  resolved "https://registry.npmjs.org/@sanity/production-preview/-/production-preview-2.14.0.tgz#a09016cf5468cffb7c8c107ab3b76ee16ea4b3fe"
+  integrity sha512-EICdTMZsPLDc8YaTuJkbD6hq6az0xsCYAywiHZpXQInJ1I4ih3gnFn3BLPM8bNYadIGsigtyCtEVqJ9YogN6xQ==
+
 "@sanity/react-hooks@2.13.1":
   version "2.13.1"
   resolved "https://registry.npmjs.org/@sanity/react-hooks/-/react-hooks-2.13.1.tgz#9129d420bb3b86aa4483ea2ba01e8c08852e5d9a"
@@ -1698,6 +1731,22 @@
     "@juggle/resize-observer" "^3.3.1"
     "@popperjs/core" "^2.9.2"
     "@reach/auto-id" "^0.15.3"
+    "@sanity/color" "^2.1.4"
+    "@sanity/icons" "^1.1.4"
+    framer-motion "^4.1.17"
+    popper-max-size-modifier "^0.2.0"
+    react-is "^17.0.2"
+    react-popper "^2.2.5"
+    react-refractor "^2.1.4"
+
+"@sanity/ui@^0.35.0":
+  version "0.35.1"
+  resolved "https://registry.npmjs.org/@sanity/ui/-/ui-0.35.1.tgz#2265923277a9d9c4df1fd06041f5bd541d1325ef"
+  integrity sha512-ilU9VsAmXkosGPhYjWp32J34wrs/36U1Fn3nm0EDynQJ0P2vZGBtBKgK8mOo4S0XUQSgSPF1Y9IW2//flEi4wg==
+  dependencies:
+    "@juggle/resize-observer" "^3.3.1"
+    "@popperjs/core" "^2.9.3"
+    "@reach/auto-id" "^0.16.0"
     "@sanity/color" "^2.1.4"
     "@sanity/icons" "^1.1.4"
     framer-motion "^4.1.17"
@@ -2266,6 +2315,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -3713,6 +3769,11 @@ depd@^1.1.2, depd@~1.1.2:
   resolved "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
+dequal@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
+  integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
+
 des.js@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/des.js/-/des.js-1.0.1.tgz#5382142e1bdc53f85d86d53e5f4aa7deb91e0843"
@@ -4504,7 +4565,7 @@ focus-lock@^0.9.1:
   dependencies:
     tslib "^2.0.3"
 
-follow-redirects@^1.2.4:
+follow-redirects@^1.10.0, follow-redirects@^1.2.4:
   version "1.14.1"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
   integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
@@ -6378,6 +6439,11 @@ nanoid@^3.1.12, nanoid@^3.1.22, nanoid@^3.1.9:
   version "3.1.23"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
+
+nanoid@^3.1.20:
+  version "3.1.25"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
+  integrity sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8590,6 +8656,18 @@ sanity-plugin-cloudinary@^0.2.1:
     styled-components "^5.2.1"
     video.js "^7.11.7"
 
+sanity-plugin-vercel-deploy@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/sanity-plugin-vercel-deploy/-/sanity-plugin-vercel-deploy-2.0.1.tgz#40272e99b9ba83e9ca1ec23262115227664194ff"
+  integrity sha512-yl8GW/Wy3UOW7ohYftNFG5KJYsqIUpj7VDbeN2/pEEOvuxDOm+ebNbLcwRm+QzvSATXivmZyVYGUagmhXyrzxw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    axios "^0.21.1"
+    nanoid "^3.1.20"
+    prop-types "^15.7.2"
+    spacetime "^6.16.0"
+    swr "^0.5.6"
+
 sanity-secrets@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/sanity-secrets/-/sanity-secrets-0.0.3.tgz#12dd53b1e7667e79d4d086d68a1d5548cc8349ad"
@@ -8913,6 +8991,11 @@ space-separated-tokens@^1.0.0:
   version "1.1.5"
   resolved "https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz#85f32c3d10d9682007e917414ddc5c26d1aa6899"
   integrity sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==
+
+spacetime@^6.16.0:
+  version "6.16.3"
+  resolved "https://registry.npmjs.org/spacetime/-/spacetime-6.16.3.tgz#86d3b05db33421a9ee478b1f2ca025582fc61fcf"
+  integrity sha512-JQEfj3VHT1gU1IMV5NvhgAP8P+2mDFd84ZCiHN//dp6hRKmuW0IizHissy62lO0nilfFjVhnoSaMC7te+Y5f4A==
 
 spdx-correct@^3.0.0:
   version "3.1.1"
@@ -9247,6 +9330,13 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swr@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.npmjs.org/swr/-/swr-0.5.6.tgz#70bfe9bc9d7ac49a064be4a0f4acf57982e55a31"
+  integrity sha512-Bmx3L4geMZjYT5S2Z6EE6/5Cx6v1Ka0LhqZKq8d6WL2eu9y6gHWz3dUzfIK/ymZVHVfwT/EweFXiYGgfifei3w==
+  dependencies:
+    dequal "2.0.2"
 
 symbol-observable@^1.2.0:
   version "1.2.0"
